@@ -23,15 +23,27 @@
 ---
 
 ## Team Members
-Azfar Syed, ECE
-Angel Chavez, ECE
-Juqy Chen, ECE
-Elisa Correa, MAE
+| Name | Major |
+|-----|-----|
+| Azfar Syed | Electrical & Computer Engineering |
+| Angel Chavez | Electrical & Computer Engineering |
+| Juqy Chen | Electrical & Computer Engineering |
+| Elisa Correa | Mechanical & Aerospace Engineering |
 
 
 ---
 
 ## Overview
+
+This project was developed for MAE/ECE 148: Autonomous Vehicles at UC San Diego. The goal of the project was to design and implement a camera-based traffic control system for an autonomous RC vehicle that can navigate a track while responding to traffic signals and avoiding obstacles.
+
+The system uses an OAK-D Lite camera and ROS2-based control architecture to detect environmental cues and adjust the vehicle’s behavior in real time. Computer vision models were trained using Roboflow to recognize traffic lights (red, yellow, and green) and orange traffic cones placed along the track. These detections are used to dynamically control the vehicle’s speed and navigation.
+
+The vehicle performs lane-following and autonomous navigation while interpreting traffic signals to determine appropriate driving actions. For example, the vehicle adjusts its speed based on traffic light states and performs obstacle avoidance maneuvers when cones are detected.
+
+To ensure reliable performance, the system integrates PID control for steering and speed regulation, and multiple camera configurations were tested to improve robustness under different lighting conditions. The system was evaluated by running autonomous laps on the course with increasing precision and stability.
+
+This project demonstrates the integration of robot perception, computer vision, and control systems to create a responsive autonomous driving platform capable of reacting to real-world traffic scenarios.
 
 ---
 

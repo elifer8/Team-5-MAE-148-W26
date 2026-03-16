@@ -6,6 +6,8 @@
 **Term:** Winter 2026  
 **Team:** Team 5
 
+
+
 ---
 
 ## Table of Contents
@@ -21,6 +23,11 @@
 ---
 
 ## Team Members
+Azfar Syed, ECE
+Angel Chavez, ECE
+Juqy Chen, ECE
+Elisa Correa, MAE
+
 
 ---
 

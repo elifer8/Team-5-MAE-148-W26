@@ -59,6 +59,28 @@ This project demonstrates the integration of robot perception, computer vision, 
 
 ---
 
+## Key Features
+
+**Traffic Light Detection**  
+Detects and classifies **red, yellow, and green traffic lights** using a computer vision model trained on Roboflow. The vehicle adjusts its speed and behavior based on the detected signal state.
+
+**Cone Detection and Obstacle Avoidance**  
+Identifies **orange traffic cones** placed on the track and performs lane-switching maneuvers to safely avoid obstacles while continuing along the course.
+
+**Camera-Based Perception**  
+Uses an **OAK-D Lite camera** with DepthAI to capture real-time visual data and run object detection models for traffic lights and cones.
+
+**ROS2 System Architecture**  
+Implements a modular **ROS2 framework** where perception, control, and decision-making nodes communicate using publishers and subscribers.
+
+**Autonomous Navigation**  
+The RC vehicle autonomously drives laps around the track while maintaining lane alignment and responding to detected traffic signals and obstacles.
+
+**Adaptive PID Control**  
+Uses **PID-based steering and speed control**, with multiple parameter configurations tested to maintain stable driving performance under different lighting conditions.
+
+--
+
 ## Final Assembly
 
 ---

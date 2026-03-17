@@ -1,5 +1,7 @@
 # Team 5 - MAE-148 Final Presentation
 
+![alt text](images/UCSDLogo_JSOE_BlueGold.png)
+
 **Institution:** University of California, San Diego (UCSD)  
 **School:** Jacobs School of Engineering (JSOE)  
 **Course:** MAE 148 - Autonomous Vehicles  

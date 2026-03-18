@@ -61,15 +61,20 @@ This project demonstrates the integration of robot perception, computer vision, 
 
 ## CAD Parts
 
-**Camera Mount
-<img src="images/4C765905-09F8-454A-8067-A0B70043C2E5.png" width="500">
+<p align="center">
+  <b>Camera Mount</b><br>
+  <img src="images/4C765905-09F8-454A-8067-A0B70043C2E5.png" width="500">
+</p>
 
-**Bellypan
-<img src="images/9AD5C9A3-BC3E-4858-A4CA-8338DD82F0AB.png" width="500">
+<p align="center">
+  <b>Bellypan</b><br>
+  <img src="images/9AD5C9A3-BC3E-4858-A4CA-8338DD82F0AB.png" width="500">
+</p>
 
-**RasberryPi Mount
-<img src="images/A24BB2DB-04E1-4D24-AE9A-6CAD14AC7077.png" width="500">
-
+<p align="center">
+  <b>Raspberry Pi Mount</b><br>
+  <img src="images/A24BB2DB-04E1-4D24-AE9A-6CAD14AC7077.png" width="500">
+</p>
 ---
 
 ## Key Features

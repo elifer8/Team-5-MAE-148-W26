@@ -75,6 +75,12 @@ This project demonstrates the integration of robot perception, computer vision, 
   <b>Raspberry Pi Mount</b><br>
   <img src="images/A24BB2DB-04E1-4D24-AE9A-6CAD14AC7077.png" width="500">
 </p>
+
+<p align="center">
+  <b>Assembly</b><br>
+  <img src="images/image.png" width="500">
+</p>
+
 ---
 
 ## Key Features
@@ -104,6 +110,7 @@ Uses **PID-based steering and speed control**, with multiple parameter configura
 ---
 
 ## Software Design
+
 
 ---
 

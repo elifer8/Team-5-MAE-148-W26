@@ -1,14 +1,16 @@
-# Team 5 - MAE-148 Final Presentation
+<p align="center">
+  <img src="images/UCSDLogo_JSOE_BlueGold.png" width="500">
+</p>
 
-![alt text](images/UCSDLogo_JSOE_BlueGold.png)
+<h1 align="center">Team 5 - MAE 148 Final Presentation</h1>
 
-**Institution:** University of California, San Diego (UCSD)  
-**School:** Jacobs School of Engineering (JSOE)  
-**Course:** MAE 148 - Autonomous Vehicles  
-**Term:** Winter 2026  
-**Team:** Team 5
-
-
+<p align="center">
+  <b>Institution:</b> University of California, San Diego (UCSD) <br>
+  <b>School:</b> Jacobs School of Engineering (JSOE) <br>
+  <b>Course:</b> MAE 148 - Autonomous Vehicles <br>
+  <b>Term:</b> Winter 2026 <br>
+  <b>Team:</b> Team 5
+</p>
 
 ---
 

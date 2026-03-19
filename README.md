@@ -2,7 +2,7 @@
   <img src="images/UCSDLogo_JSOE_BlueGold.png" width="500">
 </p>
 
-<h1 align="center">Team 5 - MAE 148 Final Presentation</h1>
+<h1 align="center">Team 5 - Traffic Control Obstacle Avoidance Car</h1>
 
 <p align="center">
   <b>Institution:</b> University of California, San Diego (UCSD) <br>

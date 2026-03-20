@@ -15,11 +15,14 @@
 ---
 
 ## Table of Contents
+- [Table of Contents](#table-of-contents)
 - [Team Members](#team-members)
 - [Overview](#overview)
 - [Goals We Met](#goals-we-met)
 - [Final Project Videos](#final-project-videos)
 - [CAD Parts](#cad-parts)
+- [Key Files](#key-files)
+- [Key Features](#key-features)
 - [Final Assembly](#final-assembly)
 - [Software Design](#software-design)
 - [Gantt Chart](#gantt-chart)
@@ -82,6 +85,22 @@ This project demonstrates the integration of robot perception, computer vision, 
 </p>
 
 ---
+## Key Files
+We built upon the classes lane detection ROS2 implimentaion. Added files and changed:
+
+Lane detection Node
+- /home/projects/ros2_ws_a/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg/traffic_light_gate_node.py
+- /home/projects/ros2_ws_a/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg/lane_guidance_node.py
+- /home/projects/ros2_ws_a/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg/lane_guidance_node.py
+- /home/projects/ros2_ws_a/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg/cone_depth_detector_node.py
+- /home/projects/ros2_ws_a/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg/ucsd_robocar_lane_detection2_pkg/calibration_node.py
+- /home/projects/ros2_ws_a/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg/config/ros_racer_calibration.yaml
+- /home/projects/ros2_ws_a/src/ucsd_robocar_hub2/ucsd_robocar_lane_detection2_pkg/setup.py
+
+sensor2 node
+- /home/projects/ros2_ws_a/src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg/ucsd_robocar_sensor2_pkg/oakd_shared_node.py
+- /home/projects/ros2_ws_a/src/ucsd_robocar_hub2/ucsd_robocar_sensor2_pkg/launch/camera_oakd.launch.py
+
 
 ## Key Features
 

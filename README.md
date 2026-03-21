@@ -56,6 +56,10 @@ This project demonstrates the integration of robot perception, computer vision, 
 
 ## Goals We Met
 
+- Successfully implemented a ROS2-based autonomous driving pipeline
+- Developed and deployed a Roboflow model for traffic light detection (red, yellow, green)
+- Integrated perception with control to enable stop/go behavior based on traffic light state
+
 ---
 
 ## Final Project Videos

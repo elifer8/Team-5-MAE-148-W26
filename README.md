@@ -60,6 +60,8 @@ This project demonstrates the integration of robot perception, computer vision, 
 
 ## Final Project Videos
 
+
+
 ---
 
 ## CAD Parts
@@ -134,6 +136,18 @@ Uses **PID-based steering and speed control**, with multiple parameter configura
 ---
 
 ## Gantt Chart
+
+<p align="center">
+  <b>Initial Gantt Chart</b><br>
+  <img src="images/Initial Gantt.png" width="500">
+</p>
+
+<p align="center">
+  <b>Final Gantt Chart</b><br>
+  <img src="images/FinalGantt.png" width="500">
+</p>
+
+
 
 ---
 

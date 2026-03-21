@@ -71,6 +71,10 @@ This project demonstrates the integration of robot perception, computer vision, 
 ## Final Project Videos
 
 
+https://github.com/user-attachments/assets/07e71f53-c20c-4cf6-994f-b9095cc72826
+
+
+
 
 ---
 
@@ -134,7 +138,7 @@ The RC vehicle autonomously drives laps around the track while maintaining lane 
 **Adaptive PID Control**  
 Uses **PID-based steering and speed control**, with multiple parameter configurations tested to maintain stable driving performance under different lighting conditions.
 
---
+
 
 ## Final Assembly
 

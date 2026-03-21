@@ -158,6 +158,24 @@ This installs Roboflow’s Inference CLI tool, which sets up and manages a local
 , such as the detected traffic light, class label, confidence score, and bounding box. This inference server runs separately from the ROS 2 environment. 
 We built on top of the ROS 2 package provided in class, which already performed lane following. We then added a new node that sends the camera feed to http://localhost:9001, where our Roboflow model is running, and receives the prediction results back into the ROS 2 environment. Using those results, we modified the car’s behavior based on the detected object. If a green light is detected, the car continues moving. If a red light is detected, the car stops. If a cone is detected, we use the OAK-D Lite depth function to determine how far away the cone is. If the cone is within 1.8 meters, the car runs a separate script to avoid it. These scripts temporarily override the normal lane-following behavior. Once the task is complete, control returns to the lane-guidance system so the car can continue driving smoothly
 
+
+## Software Design
+
+First, we created a new Docker container by following Roboflow’s installation instructions:
+
+```bash
+pip install inference-cli
+inference server start
+```
+
+This installs Roboflow’s Inference CLI tool, which sets up and manages a local inference server on the Raspberry Pi. The server loads our trained model and waits for images sent from our code. Once it receives an image, it returns predictions through the local server at http://localhost:9001, such as the detected traffic light, class label, confidence score, and bounding box.
+
+This inference server runs separately from the ROS 2 environment. We built on top of the ROS 2 package provided in class, which already performed lane following. We then added a new node that sends the camera feed to http://localhost:9001, where our Roboflow model is running, and receives the prediction results back into the ROS 2 environment.
+
+Using those results, we modified the car’s behavior based on the detected object. If a green light is detected, the car continues moving. If a red light is detected, the car stops. If a cone is detected, we use the OAK-D Lite depth function to determine how far away the cone is. If the cone is within 1.8 meters, the car runs a separate script to avoid it.
+
+These scripts temporarily override the normal lane-following behavior. Once the task is complete, control returns to the lane-guidance system so the car can continue driving smoothly.
+
 ---
 
 ## Gantt Chart
